@@ -1,0 +1,33 @@
+/* Общий стиль страницы */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indigo;   
+}
+
+body {
+    background-color: rgb(224, 189, 211);
+}
+
+/* Стиль ссылки на оглавление */
+
+a.main_link {
+    text-decoration: none;
+    color: rgb(224, 189, 211);
+    border: 2px solid black;
+    background-color: darkmagenta;
+}
+
+/* Стиль основной части страницы */
+
+div {
+    text-align: center;
+}
+
+#link {
+    cursor: nesw-resize;
+}
+
+#link:hover {
+    font-size: x-large ;
+}

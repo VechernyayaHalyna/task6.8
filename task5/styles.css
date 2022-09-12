@@ -1,0 +1,60 @@
+/* Общий стиль страницы */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indigo;   
+}
+
+body {
+    background-color: rgb(224, 189, 211);
+}
+
+/* Стиль ссылки на оглавление */
+
+a {
+    text-decoration: none;
+    color: rgb(224, 189, 211);
+    border: 2px solid black;
+    background-color: darkmagenta;
+}
+
+/* Стиль основной части страницы */
+
+input::placeholder {
+    color: indigo;
+    font-style: oblique;
+}
+
+input {
+    color: indigo;
+}
+
+button {
+    background-color: rgb(185, 142, 180);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px 10px;
+    opacity: 0.5;  
+    cursor: not-allowed;
+}
+
+.active {
+    opacity: 1;
+    cursor: default;
+}
+
+#button.active:hover {
+    background-color: wheat;
+    border: 3px solid darkmagenta;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px darkmagenta;
+    padding: 10px 20px;
+}
+
+.focus {
+    word-break: break-all;
+    border: 2px solid black;
+    background-color: #fff;
+    width: 200px;
+    max-height: max-content;
+}

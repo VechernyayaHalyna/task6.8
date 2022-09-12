@@ -1,0 +1,27 @@
+/* Общий стиль страницы */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indigo;   
+}
+
+body {
+    background-color: rgb(224, 189, 211);
+}
+
+/* Стиль ссылки на оглавление */
+
+a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: rgb(224, 189, 211);
+    border: 2px solid black;
+    background-color: darkmagenta;
+}
+
+/* Стиль параграфа */
+
+.console {
+    font-weight: 600;
+    font-style: oblique; 
+}

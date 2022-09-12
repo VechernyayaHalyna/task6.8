@@ -1,0 +1,42 @@
+/* Общий стиль страницы */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indigo;   
+}
+
+body {
+    background-color: rgb(224, 189, 211);
+}
+
+/* Стиль ссылки на оглавление */
+
+a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: rgb(224, 189, 211);
+    border: 2px solid black;
+    background-color: darkmagenta;
+}
+
+/* Стиль основной части страницы */
+
+ul {
+    list-style-image: url(../images/logo_js.png);
+}
+
+p {
+    border: 2px solid black;
+    width: 93px;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 3px;  
+}
+
+.example {
+    text-decoration: underline;
+}
+
+.example_item {
+  font-weight: 550;
+}

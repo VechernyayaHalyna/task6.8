@@ -1,0 +1,39 @@
+/* Общий стиль страницы */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indigo;   
+}
+
+body {
+    background-color: rgb(224, 189, 211);
+}
+
+/* Стиль заголовка */
+
+.header {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Стиль списка */
+
+.list_header {
+    text-decoration: underline;   
+}
+
+ul {
+    border: 2px solid darkmagenta;
+    list-style-image: url(images/logo_js.png);
+    width: 120px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: darkmagenta;
+}
