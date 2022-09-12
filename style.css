@@ -28,6 +28,10 @@ ul {
     width: 120px;
 }
 
+ul:hover {
+    background-color: wheat;
+}
+
 li {
     margin-bottom: 10px;
 }

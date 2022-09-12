@@ -20,6 +20,11 @@ a {
 
 /* Стиль основной части страницы */
 
+div {
+  width: 100px;
+  height: 300px;
+}
+
 #trafficLight, #trafficLight1, #trafficLight2 {
     width: 100px;
     height: 100px;
